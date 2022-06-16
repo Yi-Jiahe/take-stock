@@ -4,3 +4,10 @@ image:
 vscode:
   extensions:
     - betterthantomorrow.calva
+
+tasks: 
+  - name: Create DB
+    command: |
+      gp await-port 5432
+      psql -h localhost
+      CREATE DATABASE take-stock-test;
