@@ -9,4 +9,4 @@ tasks:
   - name: Create DB
     command: |
       gp ports await 5432
-      psql -h localhost -f /scripts/create-db.sql
+      psql -h localhost -f scripts/create-test-db.sql
