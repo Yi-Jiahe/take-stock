@@ -1,0 +1,1 @@
+CREATE DATABASE take_stock_test;
